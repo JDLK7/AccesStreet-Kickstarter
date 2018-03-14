@@ -287,19 +287,36 @@ textarea {
 .header-scrolled .nav > li > a {
   color: #36435A;
 }
-.header-scrolled h1.logo a {
+.header-scrolled a.logo h1 {
+  color: #36435A;
   background: transparent url('../images/logo-2.svg') no-repeat left top;
 }
-h1.logo {
+
+.magic-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+a.logo:hover {
+  text-decoration: none;
+}
+
+a.logo > h1 {
+  color: #fff;
   margin-top: 0;
+  margin-left: 1em;
   margin-bottom: 0;
 }
-h1.logo a {
-  background: transparent url('../images/logo.svg') no-repeat left top;
-  display: inline-block;
-  height: 18px;
-  width: 130px;
+
+a.logo > img {
+  width: 40px;
 }
+
 /* ====== Nav ======= */
 .navbar-toggle {
   margin-right: 0;
