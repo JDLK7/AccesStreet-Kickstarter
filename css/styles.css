@@ -9,7 +9,7 @@
 body {
   font-family: 'Lato', sans-serif;
   color: #36435A;
-  font-size: 16px;
+  font-size: 20px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -646,8 +646,7 @@ a.logo > img {
   background: #36b843;
   text-align: center;
   border-radius: 10px;
-  height: 35px;
-  line-height: 35px;
+  padding: 10px;
 }
 .about-section .item-desc .pe-icon {
   font-size: 28px;
